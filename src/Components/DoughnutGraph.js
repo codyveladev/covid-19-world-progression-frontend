@@ -34,6 +34,7 @@ export default function DoughnutGraph() {
       fontSize: 20,
       fontColor: "black",
     },
+    maintainAspectRatio: false,
     legend: {
       display: true,
       position: "bottom",

@@ -12,7 +12,7 @@ export default function TopTen() {
       <Navigation />
       <Container className="pt-4">
         <Row className="mt-3 d-flex">
-          <Container className="shadow graph-wrapper" fluid>
+          <Container className="graph shadow" fluid>
             <TopTenGraph />
           </Container>
         </Row>

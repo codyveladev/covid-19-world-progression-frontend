@@ -3,6 +3,7 @@ import { DataContext } from "../DataContext";
 import { Line } from "react-chartjs-2";
 import "chartjs-plugin-colorschemes";
 
+
 export default function LineGraph() {
   const [data] = useContext(DataContext);
 
@@ -58,6 +59,7 @@ export default function LineGraph() {
       fontSize: 20,
       fontColor: "black",
     },
+    maintainAspectRatio : false,
     plugins: {
       colorschemes: {
         scheme: "office.Flow6",
@@ -102,20 +104,14 @@ export default function LineGraph() {
   };
 
   const displayGraph = () => {
-    return (
-      data.length === 0 ? (
-        <h1>Loading...</h1>
-      ) : (
-        <>
-          <Line data={lineData} options={options} />
-        </>
-      )
-    )
-  }
+    return data.length === 0 ? (
+      <h1>Loading...</h1>
+    ) : (
+      <>
+        <Line  data={lineData} options={options} />
+      </>
+    );
+  };
 
-  return (
-    <>
-    {displayGraph()}
-    </>
-  );
+  return <>{displayGraph()}</>;
 }

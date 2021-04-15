@@ -46,6 +46,7 @@ export default function PercentagesGraph() {
       fontSize: 20,
       fontColor: "black",
     },
+    maintainAspectRatio: false,
     plugins: {
       colorschemes: {
         scheme: "office.RedViolet6",
@@ -69,7 +70,7 @@ export default function PercentagesGraph() {
             fontColor: "#000",
             fontSize: 12,
             min: 0,
-            max: 100
+            max: 100,
           },
         },
       ],

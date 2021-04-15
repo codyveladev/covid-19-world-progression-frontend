@@ -10,7 +10,7 @@ export default function VaccineInCountries() {
         <Navigation />
         <Container className="pt-4 mb-4">
           <Row className="mt-3 d-flex justify-content-center">
-            <Container className="shadow graph-wrapper" fluid>
+            <Container className="graph shadow graph-wrapper" fluid>
               <DoughnutGraph />
             </Container>
           </Row>
