@@ -1,7 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 * {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .hero {
@@ -27,7 +26,7 @@
   overflow-y: auto;
 }
 
-.graph {
+.graph{
   height: 90vh;
 }
 
