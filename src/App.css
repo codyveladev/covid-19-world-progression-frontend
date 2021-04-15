@@ -1,0 +1,28 @@
+.hero {
+  height: calc(100vh - 91px);
+  background-image: url(./Img/world-140304_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  z-index: -2;
+}
+.nav-bg{
+  background-color: black;
+}
+#navbar{
+  font-size: large;
+  color: white;
+}
+.table-wrap {
+  height: 75vh;
+  overflow-y: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .graph-wrapper {
+    height: 100vh;
+  }
+}
