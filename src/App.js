@@ -44,6 +44,16 @@ function App() {
             component={RawData}
             exact
           ></Route>
+          <Route
+            path="/contact"
+            component={Contact}
+            exact
+          ></Route>
+          <Route
+            path="/contributing"
+            component={Contributing}
+            exact
+          ></Route>
         </Switch>
       </Router>
     </DataProvider>

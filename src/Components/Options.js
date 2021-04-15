@@ -8,7 +8,7 @@ const axios = require("axios");
 export default function Options() {
   const [options, setOptions] = useState([]);
   const [selected, setSelected] = useState("");
-  const [data, setData] = useContext(DataContext);
+  const [ setData] = useContext(DataContext);
 
   const handleSubmit = async (e) => {
     e.preventDefault();

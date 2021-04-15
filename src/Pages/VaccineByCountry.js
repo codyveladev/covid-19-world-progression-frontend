@@ -19,11 +19,15 @@ export default function VaccineByCountry() {
       </Container>
       <Container fluid>
         <Row className="mt-3">
-          <Container className="shadow graph-wrapper mb-4">
-            <LineGraph />
+          <Container className="d-flex justify-content-center shadow mb-4">
+            <Col sm={12} lg={10}>
+              <LineGraph />
+            </Col>
           </Container>
-          <Container className="shadow graph-wrapper pt-5">
-            <PercentagesGraph />
+          <Container className="d-flex justify-content-center shadow pt-4">
+            <Col sm={12} lg={10}>
+              <PercentagesGraph />
+            </Col>
           </Container>
         </Row>
       </Container>

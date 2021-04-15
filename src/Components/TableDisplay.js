@@ -1,4 +1,4 @@
-import React, {useContext, useEffect} from "react";
+import React, {useContext } from "react";
 import { Table } from "react-bootstrap";
 import { DataContext } from "../DataContext";
 

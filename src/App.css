@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+* {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
 .hero {
   height: calc(100vh - 91px);
   background-image: url(./Img/world-140304_1280.jpg);
@@ -9,10 +14,10 @@
   align-items: center; /* align vertical */
   z-index: -2;
 }
-.nav-bg{
+.nav-bg {
   background-color: black;
 }
-#navbar{
+#navbar {
   font-size: large;
   color: white;
 }

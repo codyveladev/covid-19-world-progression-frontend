@@ -1,8 +1,6 @@
 import React from "react";
 import Navigation from "../Components/Navigation";
-import Hero from '../Components/Home/Hero'
-
-import { Container, Row, Col } from "react-bootstrap";
+import Hero from "../Components/Home/Hero";
 
 export default function Main() {
   return (

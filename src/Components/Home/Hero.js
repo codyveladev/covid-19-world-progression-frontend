@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Col, Row, Button } from "react-bootstrap";
+import { Container, Col, Row } from "react-bootstrap";
 import "../../App.css";
 
 export default function Hero() {
@@ -8,12 +8,12 @@ export default function Hero() {
       <Container fluid>
         <Row>
           <Col sm={12} className="text-center">
-            <h1 className="text-white display-3">
+            <h1 className="text-white">
               World COVID-19 Vaccination Progression
             </h1>
-            <h3 className="text-white">
+            <h4 className="text-white">
               Visualize the worlds vaccination efforts
-            </h3>
+            </h4>
           </Col>
         </Row>
       </Container>

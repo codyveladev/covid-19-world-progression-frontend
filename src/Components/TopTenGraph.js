@@ -14,7 +14,7 @@ export default function TopTenGraph() {
     setTopTen(response.data);
   };
 
-  useEffect(async () => {
+  useEffect(() => {
     getTopTen();
   }, []);
 

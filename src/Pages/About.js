@@ -1,5 +1,5 @@
 import React from "react";
-import {Container} from "react-bootstrap"
+import { Container } from "react-bootstrap";
 import Navigation from "../Components/Navigation";
 
 export default function About() {
@@ -7,7 +7,7 @@ export default function About() {
     <>
       <Navigation />
       <section>
-        <Container className="shadow px-5">
+        <Container className="px-5">
           <div className="text-center pt-4">
             <h1 className="display-4"> About the Data </h1>
             <p className="text-left lead">
@@ -45,7 +45,12 @@ export default function About() {
               backend.
             </p>
             <p className="text-left lead">
-              Overall, this project taught me how to use flask to create an API that connects to a frontend. As well taught me how to use React's context API for state management and gae me more practice with asynchronus programming. Thank you for checking out this project. If you would like to learn more, check out the contact tab to get in touch with me!
+              Overall, this project taught me how to use flask to create an API
+              that connects to a frontend. As well taught me how to use React's
+              context API for state management and gae me more practice with
+              asynchronus programming. Thank you for checking out this project.
+              If you would like to learn more, check out the contact tab to get
+              in touch with me!
             </p>
           </div>
         </Container>
