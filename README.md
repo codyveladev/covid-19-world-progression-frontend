@@ -2,7 +2,7 @@
 ### World COVID-19 Vaccination Progression
 This is a project to be able to visuilaize the progression of distrubting the vaccine at the global level 
 
-# Project Status
+## Project Status
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8e40dc87-e3bb-4e95-9c90-690eb1fd2ada/deploy-status)](https://app.netlify.com/sites/gracious-jackson-49f768/deploys)
 
 
