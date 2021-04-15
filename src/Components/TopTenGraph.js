@@ -9,7 +9,7 @@ export default function TopTenGraph() {
 
   const getTopTen = async () => {
     let response = await axios.get(
-      "http://localhost:5000/api/top/total-values"
+      "https://covid-19-world-progression-backend.vercel.app/api/top/total-values"
     );
     setTopTen(response.data);
   };

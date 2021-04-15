@@ -8,7 +8,7 @@ export default function DoughnutGraph() {
   const getVaccineCount = async () => {
     try {
       let response = await axios.get(
-        "http://localhost:5000/api/count/country-vaccine"
+        "https://covid-19-world-progression-backend.vercel.app/api/count/country-vaccine"
       );
 
       setCount(response.data);

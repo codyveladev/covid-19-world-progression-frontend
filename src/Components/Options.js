@@ -14,7 +14,9 @@ export default function Options() {
     e.preventDefault();
 
     try {
-      const res = await axios.get(`http://127.0.0.1:5000/api/country/${selected}`);
+      const res = await axios.get(
+        `https://covid-19-world-progression-backend.vercel.app/api/country/${selected}`
+      );
       setData(res.data);
     } catch (e) {
       console.log(e);
