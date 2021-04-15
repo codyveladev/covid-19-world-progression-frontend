@@ -11,7 +11,7 @@ export default function TopTen() {
     <div>
       <Navigation />
       <Container className="pt-4">
-        <Row className="mt-3 d-flex">
+        <Row className="my-3 d-flex">
           <Container className="graph shadow" fluid>
             <TopTenGraph />
           </Container>
