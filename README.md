@@ -1,5 +1,4 @@
-## Project Name 
-### World COVID-19 Vaccination Progression
+## World COVID-19 Vaccination Progression
 This is a project to be able to visuilaize the progression of distrubting the vaccine at the global level 
 
 ## Project Status
